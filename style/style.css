@@ -1,0 +1,214 @@
+* {
+	font-family: "Poppins", sans-serif;
+	margin: 0;
+	padding: 0;
+}
+body {
+	background-color: #bdb6b6;
+	overflow-y: hidden;
+}
+p {
+	margin-bottom: 0 !important;
+}
+.nav-bar {
+	padding: 0 5rem;
+	color: white;
+	background-color: #430d77;
+	display: flex;
+	position: fixed;
+	top: 0;
+	margin-bottom: 100px;
+	width: 100%;
+	justify-content: space-between;
+	padding-top: 1rem;
+	/* align-items: center; */
+}
+
+.logo {
+	font-size: xx-large;
+	font-weight: bold;
+}
+.nav-bar button {
+	color: white;
+}
+.user-name {
+	font-size: large;
+	font-weight: bold;
+}
+.user-image {
+	width: 80px;
+	height: 80px;
+	padding: 3px;
+	border-radius: 50%;
+}
+.user {
+	/* border: 2px solid black; */
+	background-color: white;
+	border-radius: 10px;
+	margin: 4px;
+	width: 500px;
+	/* height: 100px; */
+	display: flex;
+	flex-grow: 1;
+	justify-content: space-around;
+	align-items: center;
+	padding: 1rem;
+}
+
+.user:hover{
+	background-color: lightblue;
+	cursor: pointer;
+}
+
+.user-detail {
+	padding: 0.7rem;
+	width: 100%;
+}
+
+.users-container {
+	overflow-x: hidden;
+	height: 450px;
+}
+
+.container-1 {
+	display: flex;
+	margin: 100px;
+	
+}
+
+.one {
+	border: 5px solid #269326;
+}
+
+.two {
+	border: 5px solid red;
+}
+
+.three {
+	border: 5px solid #ffff00;
+}
+
+.four {
+	border: 5px solid #979797;
+}
+
+.three-btn {
+	font-size: 1.4rem;
+}
+
+button {
+	background: none;
+	font-size: 1.4rem;
+	border: none;
+}
+
+.dropdown-item {
+	font-size: medium;
+}
+
+.form {
+	display: flex;
+	flex-grow: 1;
+	flex-direction: column;
+	align-items: center;
+    background: lightgrey;
+    border-radius: 15px;
+    padding-bottom: 25px;
+    margin-top: 5px;
+    margin-left: 100px;
+}
+
+input,
+select {
+	margin: 1rem;
+	padding: 1rem;
+	width: 30rem;
+	border: none;
+	font-size: 1rem;
+	border-radius: 10px;
+}
+
+input:focus {
+	outline: none;
+}
+
+select {
+	width: 30rem;
+	margin: 1rem;
+	padding: 1rem;
+}
+
+.btn {
+	margin-top: 10px;
+	background-color: black;
+	color: white;
+}
+
+#editUserForm {
+	display: none;
+}
+
+#addUserForm {
+	display:none;
+}
+
+.btn {
+	background-color: #430d77;
+	color: white;
+	font-size: larger;
+	width: 10rem;
+}
+.btn:hover{
+	color: whitesmoke;
+}
+.userChat{
+	height: 450px;
+	width: 630px;
+	margin-left: 10px;
+	background-color: white;
+	display: none;
+}
+#chatHeader{
+	background-color: #430d77;
+	height: 40px;
+}
+#chatFooter{
+	background-color: #430d77;
+	height: 40px;
+	display: flex;
+}
+.chatData{
+	height: 370px;;
+}
+.message{
+	height: 25px;
+	margin: 5px;
+	width: 600px;
+}
+.send{
+	width: 70px;
+	height: 32px;
+	font-size: small;
+	background-color: white;
+	border-radius: 10px;
+	margin-left: 3px;
+	margin-top: 2px;
+}
+.inputFile{
+	width: 50px;
+	height: 32px;
+	margin-left: 3px;
+	margin-top: 2px;
+}
+.empty{
+	display: flex;
+	width: 100%;
+}
+.odd{
+	background-color:#979797;
+	text-align: left;
+}
+.even{
+	background-color: #bdb6b6;
+	text-align: right;
+}
